@@ -1,0 +1,81 @@
+body{
+    background: url("lib.avif") center;
+    align-items: center;
+}
+.main-head{
+    color: white;
+    font-size: 40px;
+    border: solid white;
+    width: 500px;
+    text-align: center;
+    margin: 100px 500px;
+    background-color: black;
+}
+.content{
+    text-align: center;
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    margin: 80px 400px;
+    border-radius: 10px;
+}
+.quote{
+    padding: 35px;
+    line-height: 40px;
+    font-size: 30px;
+}
+.author{
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.btn{
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#open{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 200px;
+    height: 50px;;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+    transition: .5s ;
+}
+#open:hover{
+    background-color: white;
+    color: black;
+}
+
+#modal{
+    position: absolute;
+    background-color: white;
+    border:2px solid  black;
+    font-size: 1rem;
+    top: 50%;
+    left: 5%;
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-name: animatemodal;
+    animation-duration: .4s;
+}
+
+#close{
+    display: inline-flex;
+    font-size: 2rem;
+    cursor: pointer;
+    color: red;
+}
